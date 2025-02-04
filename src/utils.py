@@ -53,9 +53,9 @@ def load_config(config_path):
 
 
 def setup_wandb(config):
-    wandb.login(key="2969df087e802c4ac41a6fa5e2cd99137b382c91")
+    wandb.login(key="fd2f4a747b6d6934bcc41013afb25a02f4753a3e")
     return wandb.init(
-        name    = "run42", ### Wandb creates random run names if you skip this field, we recommend you give useful names
+        name    = "run-sherry", ### Wandb creates random run names if you skip this field, we recommend you give useful names
         reinit  = True, ### Allows reinitalizing runs when you re-run this cell
         # id     = "xgesgg8t", ### Insert specific run id here if you want to resume a previous run
         # resume = "must", ### You need this to resume previous runs, but comment out reinit = True when using this
